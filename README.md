@@ -1,41 +1,51 @@
 # M5Core2_SG90_StackChan_BTSPK
 Bluetooth Speaker StackChan
 
-@mongonta555 ‚³‚ñ‚ª[½À¯¸Á¬İ M5GoBottom”Å‘g‚İ—§‚ÄƒLƒbƒg](https://raspberrypi.mongonta.com/about-products-stackchan-m5gobottom-version/ "Title")‚Ì”Ğ•z‚ğn‚ß‚ç‚ê‚½‚Ì‚ÅA‚»‚ê‚É‘Î‰‚µ‚½Bluetooth Speaker½À¯¸Á¬İƒtƒ@[ƒ€‚ğì‚è‚Ü‚µ‚½B<br>
+@mongonta555 ã•ã‚“ãŒ[ï½½ï¾€ï½¯ï½¸ï¾ï½¬ï¾ M5GoBottomç‰ˆçµ„ã¿ç«‹ã¦ã‚­ãƒƒãƒˆ](https://raspberrypi.mongonta.com/about-products-stackchan-m5gobottom-version/ "Title")ã®é ’å¸ƒã‚’å§‹ã‚ã‚‰ã‚ŒãŸã®ã§ã€ãã‚Œã«å¯¾å¿œã—ãŸBluetooth Speakerï½½ï¾€ï½¯ï½¸ï¾ï½¬ï¾ãƒ•ã‚¡ãƒ¼ãƒ ã‚’ä½œã‚Šã¾ã—ãŸã€‚<br>
 
-![‰æ‘œataru](images/ataru.png)<br>
+![ç”»åƒataru](images/ataru.png)<br>
 
 ---
-### M5GoBottom”Å½À¯¸Á¬İ–{‘Ì‚ğì‚é‚Ì‚É•K—v‚È•¨A‹y‚Ñì‚è•û ###
-‚±‚¿‚ç‚ğQÆ‚µ‚Ä‚­‚¾‚³‚¢B<br>
-* [½À¯¸Á¬İ M5GoBottom”Å‘g‚İ—§‚ÄƒLƒbƒg](https://raspberrypi.mongonta.com/about-products-stackchan-m5gobottom-version/ "Title")<br>
+### M5GoBottomç‰ˆï½½ï¾€ï½¯ï½¸ï¾ï½¬ï¾æœ¬ä½“ã‚’ä½œã‚‹ã®ã«å¿…è¦ãªç‰©ã€åŠã³ä½œã‚Šæ–¹ ###
+ã“ã¡ã‚‰ã‚’å‚ç…§ã—ã¦ãã ã•ã„ã€‚<br>
+* [ï½½ï¾€ï½¯ï½¸ï¾ï½¬ï¾ M5GoBottomç‰ˆçµ„ã¿ç«‹ã¦ã‚­ãƒƒãƒˆ](https://raspberrypi.mongonta.com/about-products-stackchan-m5gobottom-version/ "Title")<br>
 
-### ‚±‚ÌƒvƒƒOƒ‰ƒ€‚ğƒrƒ‹ƒh‚·‚é‚Ì‚É•K—v‚È•¨ ###
-* Arduino IDE (ƒo[ƒWƒ‡ƒ“ 1.8.15‚Å“®ìŠm”F‚ğ‚µ‚Ü‚µ‚½B)<br>
-* [M5Stack-Avatar](https://github.com/meganetaaan/m5stack-avatar/ "Title")ƒ‰ƒCƒuƒ‰ƒŠ(ƒo[ƒWƒ‡ƒ“ 0.7.3‚Å“®ìŠm”F‚ğ‚µ‚Ü‚µ‚½B)<br>
-* [ServoEasing](https://github.com/ArminJo/ServoEasing/ "Title")ƒ‰ƒCƒuƒ‰ƒŠ(ƒo[ƒWƒ‡ƒ“ 2.4.0‚Å“®ìŠm”F‚ğ‚µ‚Ü‚µ‚½B)<br>
-* [ESP32Servo](https://github.com/madhephaestus/ESP32Servo/ "Title")ƒ‰ƒCƒuƒ‰ƒŠ(ƒo[ƒWƒ‡ƒ“ 0.9.0‚Å“®ìŠm”F‚ğ‚µ‚Ü‚µ‚½B)<br>
-* [ESP32-A2DP](https://github.com/pschatzmann/ESP32-A2DP/ "Title")ƒ‰ƒCƒuƒ‰ƒŠ<br>
+### ã“ã®ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã‚’ãƒ“ãƒ«ãƒ‰ã™ã‚‹ã®ã«å¿…è¦ãªç‰© ###
+* Arduino IDE (ãƒãƒ¼ã‚¸ãƒ§ãƒ³ 1.8.15ã§å‹•ä½œç¢ºèªã‚’ã—ã¾ã—ãŸã€‚)<br>
+* [M5Stack-Avatar](https://github.com/meganetaaan/m5stack-avatar/ "Title")ãƒ©ã‚¤ãƒ–ãƒ©ãƒª(ãƒãƒ¼ã‚¸ãƒ§ãƒ³ 0.7.3ã§å‹•ä½œç¢ºèªã‚’ã—ã¾ã—ãŸã€‚)<br>
+* [ServoEasing](https://github.com/ArminJo/ServoEasing/ "Title")ãƒ©ã‚¤ãƒ–ãƒ©ãƒª(ãƒãƒ¼ã‚¸ãƒ§ãƒ³ 2.4.0ã§å‹•ä½œç¢ºèªã‚’ã—ã¾ã—ãŸã€‚)<br>
+* [ESP32Servo](https://github.com/madhephaestus/ESP32Servo/ "Title")ãƒ©ã‚¤ãƒ–ãƒ©ãƒª(ãƒãƒ¼ã‚¸ãƒ§ãƒ³ 0.9.0ã§å‹•ä½œç¢ºèªã‚’ã—ã¾ã—ãŸã€‚)<br>
+* [ESP32-A2DP](https://github.com/pschatzmann/ESP32-A2DP/ "Title")ãƒ©ã‚¤ãƒ–ãƒ©ãƒª<br>
 <br>
 
-### M5Stack-Avatarƒ‰ƒCƒuƒ‰ƒŠ‚ğ•ÏX‚·‚é ###
+### M5Stack-Avatarãƒ©ã‚¤ãƒ–ãƒ©ãƒªã‚’å¤‰æ›´ã™ã‚‹ ###
 
-* "Avatar.cpp"‚Ì‰º}Ô˜g•”•ª‚ğ•ÏX‚µ‚Ü‚·B(ƒo[ƒWƒ‡ƒ“ 0.7.4ˆÈ~‚Å‚Í•ÏX•s—v‚É‚È‚è‚Ü‚µ‚½B)
-![‰æ‘œ1](images/image1.png)<br><br><br>
-* "Avatar.cpp""Avatar.h"‚Ì‰º}Ô˜g•”•ª‚ğ’Ç‰Á‚µ‚Ü‚·B
-![‰æ‘œ2](images/image2.png)<br><br><br>
-![‰æ‘œ3](images/image3.png)<br><br><br>
-* "DrawContext.h"‚Ì‰º}Ô˜g•”•ª‚ğ•ÏX‚µ‚Ü‚·B
-![‰æ‘œ4](images/image4.png)<br><br><br>
+* "Avatar.cpp"ã®ä¸‹å›³èµ¤æ éƒ¨åˆ†ã‚’å¤‰æ›´ã—ã¾ã™ã€‚(ãƒãƒ¼ã‚¸ãƒ§ãƒ³ 0.7.4ä»¥é™ã§ã¯å¤‰æ›´ä¸è¦ã«ãªã‚Šã¾ã—ãŸã€‚)
+![ç”»åƒ1](images/image1.png)<br><br><br>
+* "Avatar.cpp""Avatar.h"ã®ä¸‹å›³èµ¤æ éƒ¨åˆ†ã‚’è¿½åŠ ã—ã¾ã™ã€‚
+![ç”»åƒ2](images/image2.png)<br><br><br>
+![ç”»åƒ3](images/image3.png)<br><br><br>
+* "DrawContext.h"ã®ä¸‹å›³èµ¤æ éƒ¨åˆ†ã‚’å¤‰æ›´ã—ã¾ã™ã€‚
+![ç”»åƒ4](images/image4.png)<br><br><br>
 
-### ESP32-A2DPƒ‰ƒCƒuƒ‰ƒŠ‚ğ•ÏX‚·‚é ###
-* "BluetoothA2DPSink.cpp"‚Ì‰º}Ô˜g•”•ª‚ğ’Ç‰Á‚µ‚Ü‚·B<br>
-![‰æ‘œ1](images/image5.png)<br>
+### ESP32-A2DPãƒ©ã‚¤ãƒ–ãƒ©ãƒªã‚’å¤‰æ›´ã™ã‚‹ ###
+* "BluetoothA2DPSink.cpp"ã®ä¸‹å›³èµ¤æ éƒ¨åˆ†ã‚’è¿½åŠ ã—ã¾ã™ã€‚<br>
+![ç”»åƒ1](images/image5.png)<br>
 <br><br>
+
+---
+### M5Stack-SD-Updaterã«å¯¾å¿œã•ã›ã‚‹å ´åˆ ###
+
+* [M5Stack-SD-Updater](https://github.com/tobozo/M5Stack-SD-Updater/ "Title")ãƒ©ã‚¤ãƒ–ãƒ©ãƒªãŒå¿…è¦ã§ã™ã€‚<br>
+* "M5Core2_SG90_StackChan_BTSPK.ino"ã®17è¡Œç›®ã®ã‚³ãƒ¡ãƒ³ãƒˆã‚’å¤–ã—ã¦"#define USE_SD_UPDATER"ã‚’æœ‰åŠ¹ã«ã—ã¾ã™ã€‚<br>
+
+M5Stack-SD-Updaterã®ä½¿ã„æ–¹ã¯ã“ã¡ã‚‰ã‚’å‚ç…§ã—ã¦ãã ã•ã„ã€‚ï¼š<https://github.com/tobozo/M5Stack-SD-Updater>
+
+
 ---
 
-### g‚¢•û ###
-* ƒXƒ}ƒz‚È‚Ç‚ÅƒyƒAƒŠƒ“ƒO‚ğ‘I‘ğ‚·‚é‚Æ"Avatar"‚Æ‚¢‚¤ƒfƒoƒCƒX‚ª•\¦‚³‚ê‚é‚Ì‚Å‘I‘ğ‚µ‚ÄÚ‘±‚µ‚Ä‚­‚¾‚³‚¢B<br>
-* M5Stack Core2‚Ìƒ{ƒ^ƒ“A,B,C‚ğ‰Ÿ‚·‚ÆA‚»‚ê‚¼‚êˆÙ‚È‚Á‚½Šç‚ğ•\¦‚µ‚Ü‚·B@<br>
+### ä½¿ã„æ–¹ ###
+* ã‚¹ãƒãƒ›ãªã©ã§ãƒšã‚¢ãƒªãƒ³ã‚°ã‚’é¸æŠã™ã‚‹ã¨"Avatar"ã¨ã„ã†ãƒ‡ãƒã‚¤ã‚¹ãŒè¡¨ç¤ºã•ã‚Œã‚‹ã®ã§é¸æŠã—ã¦æ¥ç¶šã—ã¦ãã ã•ã„ã€‚<br>
+* M5Stack Core2ã®ãƒœã‚¿ãƒ³A,B,Cã‚’æŠ¼ã™ã¨ã€ãã‚Œãã‚Œç•°ãªã£ãŸé¡”ã‚’è¡¨ç¤ºã—ã¾ã™ã€‚ã€€<br>
 <br><br>
 

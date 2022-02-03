@@ -14,6 +14,12 @@
   #define SERVO_PIN_Y 22
 #endif
 
+//#define USE_SD_UPDATER
+#ifdef USE_SD_UPDATER
+#define SDU_APP_NAME "SG90_StackChan_BTSPK"
+#include <M5StackUpdater.h>
+#endif
+
 #include <Avatar.h> // https://github.com/meganetaaan/m5stack-avatar
 #include <ServoEasing.hpp> // https://github.com/ArminJo/ServoEasing       
 #include "AtaruFace.h"
@@ -73,6 +79,14 @@ void setup() {
 #elif defined( ARDUINO_M5STACK_FIRE ) || defined( ARDUINO_M5Stack_Core_ESP32 )
   M5.begin(true, true, true, false); // Grove.Aを使う場合は第四引数(I2C)はfalse
 #endif
+#ifdef USE_SD_UPDATER
+  checkSDUpdater(
+    SD,           // filesystem (default=SD)
+    MENU_BIN,     // path to binary (default=/menu.bin, empty string=rollback only)
+    5000,         // wait delay, (default=0, will be forced to 2000 upon ESP.restart() )
+    TFCARD_CS_PIN // (usually default=4 but your mileage may vary)
+  );
+#endif
   if (servo_x.attach(SERVO_PIN_X, START_DEGREE_VALUE_X, DEFAULT_MICROSECONDS_FOR_0_DEGREE, DEFAULT_MICROSECONDS_FOR_180_DEGREE)) {
     Serial.print("Error attaching servo x");
   }
@@ -95,6 +109,7 @@ void setup() {
   tx_pin_config.data_out_num  = 2;
   tx_pin_config.data_in_num   = I2S_PIN_NO_CHANGE;
   a2dp_sink.set_pin_config(tx_pin_config);
+  a2dp_sink.set_channels(I2S_CHANNEL_MONO);
   a2dp_sink.start("Avatar");  
 #elif defined( ARDUINO_M5STACK_FIRE ) || defined( ARDUINO_M5Stack_Core_ESP32 )
   static const i2s_config_t i2s_config = {
@@ -109,6 +124,7 @@ void setup() {
       .use_apll = false
   };
   a2dp_sink.set_i2s_config(i2s_config);  
+  a2dp_sink.set_channels(I2S_CHANNEL_MONO);
   a2dp_sink.start("Avatar");  
 #endif
 
