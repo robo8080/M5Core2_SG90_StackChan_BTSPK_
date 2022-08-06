@@ -29,6 +29,9 @@ C:\Users\ユーザー名\Documents\Arduino\libraries\m5stack-avatar<br>
 ![画像4](images/image4.png)<br><br><br>
 
 ### ESP32-A2DPライブラリを変更する ###
+Windows11の場合はライブラリのソースはここにあります。<br>
+C:\Users\ユーザー名\Documents\Arduino\libraries\ESP32-A2DP<br>
+
 * "BluetoothA2DPSink.cpp"の下図赤枠部分を追加します。<br>
 ![画像1](images/image5.png)<br>
 <br><br>
